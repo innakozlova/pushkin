@@ -1,0 +1,31 @@
+section,
+header,
+nav,
+article,
+aside,
+footer,
+main {
+    display: block;
+}
+
+.col-centered{
+   float: none;
+   margin: 0 auto;
+}
+
+.put-inline-center {
+   text-align: center;
+}
+
+p {
+   margin-top: 20px;
+}
+
+p::first-line {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: light-blue;
+}
+
+
+
