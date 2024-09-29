@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial scale=1.0">
 
@@ -13,6 +14,7 @@
         @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
     </style>
 </head>
+    
 <body>
 <!--главный контейнер-->
 <div class="container">
@@ -44,7 +46,7 @@
     <!--шапка (end)-->
     <!--хлебные крошки-->
     <nav aria-label="breadcrumb" class="m-1 pt-3 ps-5 ms-5 border align-items-center"
-         style='--bs-breadcrumb-divider: "→";'>
+         style='...'>
         <ol class="breadcrumb">
             <li class="breadcrumb-item">Главная</li>
         </ol>
@@ -89,7 +91,7 @@
 </div>
 <br>
 <!--контент-->
-<div class="row m-5"><!--помещаем в блок для трех колонок-->
+<div class="row m-2"><!--помещаем в блок для трех колонок-->
     <h1 class="text-center pb-3">Мы предлагаем:</h1>
     <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"><!--первая колонка про школьников-->
         <div class="card h-100">
@@ -138,22 +140,23 @@
             </div>
         </div>
     </div>
-       <div class="embed-responsive embed-responsive-16by9 ">
-       <p class="put-inline-center">
-        <iframe class="embed-responsive-item" width="720" height="405"
-                src="https://rutube.ru/play/embed/7105cc7b5c4bb0d0e093bb314d36ae8d/?t=1&stopTime=30"
-                frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen
-                allowFullScreen></iframe>
-      </p>
+     <!-- Ролик -->
+    <div class="row m-3">
+          <div class="col-12 video-frame col-centered rounded">  
+               <p class="put-inline-center">
+                <iframe class="embed-responsive-item" 
+                src="https://rutube.ru/play/embed/7105cc7b5c4bb0d0e093bb314d36ae8d/?t=1&stopTime=30" frameBorder="0" 
+                allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+              </p>
+          </div>
     </div>
-</div>
 <!--контент end-->
 <!--подвал-->
 <br>
 
 <footer class="bg-body-tertiary text-center text-lg-start">
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    <div class="text-center p-3" style="...">
         © 2024 Pushkin style
     </div>
     <!-- Copyright -->
